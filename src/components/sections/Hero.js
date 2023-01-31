@@ -68,12 +68,10 @@ const Hero = ({
               We are investigating what problems we can solve with blockchain.                </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" className="button1" wideMobile href="https://cruip.com/">
+                  <Button tag="a" className="button1" wideMobile href="0">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button>
+              
                 </ButtonGroup>
               </div>
             </div>

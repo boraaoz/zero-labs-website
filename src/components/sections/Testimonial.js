@@ -56,10 +56,8 @@ const Testimonial = ({
       <div className="container">
       <div className="containers">
 
-        <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
 
-          </div>
 
         </div>
       </div>
