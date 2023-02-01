@@ -34,6 +34,7 @@ const Footer = ({
       className={classes}
     >
       <div className="container">
+        <div className='containers'>
         <div className={
           classNames(
             'site-footer-inner',
@@ -47,6 +48,7 @@ const Footer = ({
             <FooterNav />
             <div className="footer-copyright">All right reserved</div>
           </div>
+        </div>
         </div>
       </div>
     </footer>
