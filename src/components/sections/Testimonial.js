@@ -2,6 +2,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import SectionHeaders from './partials/SectionHeader';
+
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -45,9 +47,10 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'About Us',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    paragraph: 'Zero Labs is the leading provider of development, research, and design services for blockchain technology. Our team of experts have extensive experience in developing and implementing cutting-edge solutions that leverage the power of blockchain to transform businesses and industries. With a focus on delivering high-quality, reliable, and scalable solutions, we work closely with our clients to understand their needs and design tailored solutions that meet their specific requirements.'
   };
-
+  
+  
   return (
     <section
       {...props}
@@ -57,6 +60,7 @@ const Testimonial = ({
       <div className="containers">
 
           <SectionHeader data={sectionHeader} className="center-content" />
+
 
 
         </div>

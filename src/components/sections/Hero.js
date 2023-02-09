@@ -65,10 +65,10 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              We are investigating what problems we can solve with blockchain.                </p>
+              Zero Labs team is dedicated to helping businesses harness the power of blockchain to drive change and achieve their goals. From development to research and design, we specialize in delivering customized solutions that meet the unique needs of each of our clients. Join us on our mission to unlock the full potential of blockchain technology.                </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" className="button1" wideMobile href="0">
+                  <Button tag="a" className="button1" wideMobile href="">
                     Get started
                     </Button>
               
